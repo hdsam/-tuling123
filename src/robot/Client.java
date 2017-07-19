@@ -13,7 +13,8 @@ public class Client implements DataListener {
 	//回调
 	@Override
 	public void getData(String data) {
-		parseData(data);//do something else;
+		System.out.println(parseData(data));;//do something else;
+		
 	}
 
 	private Message parseData(String data) {
