@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class HttpData{
 
-	private final String URL = "http://www.tuling123.com/openapi/api?key=ef33abbafb74419f964142a1efbd3c92&info=";
+	private final String URL = "http://www.tuling123.com/openapi/api?key=yourkey&info=";
 	private HttpURLConnection conn;
 	private DataListener listener;
 
